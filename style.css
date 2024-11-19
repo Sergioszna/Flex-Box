@@ -38,8 +38,7 @@ a {
 }
 
 #leyenda {
-    background-color: black;
-    color: aliceblue;
+    color: blue;
     display: flex;
     align-items: center;
     min-height: 100svh;
@@ -102,6 +101,8 @@ ul > li {
 
 ul > li > img {
     width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 
 .container {
